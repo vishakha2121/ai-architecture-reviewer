@@ -748,3 +748,7 @@ service-account.json
 *.temp
 .cache/
 .temp/
+
+git add .
+git commit -m "chore: remove sensitive/generated files from tracking"
+git push origin main
